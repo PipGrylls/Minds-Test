@@ -46,7 +46,7 @@ lessons:
     gh-name: shell-novice                        # Name of the GitHub repository for the lesson at https://github:com/{org-name}:
     type: episode                                # Currently only 'episode' or 'episode_r' is valid
     branch: gh-pages                             # Set the branch of the repository to use, useful for lesson customization
-    date: 17 Febuary 2022                         # The date of the lesson
+    date: 17 February 2022                         # The date of the lesson
     start-time: 10:30 am 
   
   - title: Version Control with git
