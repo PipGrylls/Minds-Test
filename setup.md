@@ -76,16 +76,73 @@ $ git clone https://github.com/Southampton-RSG/swc-git-novice
 
 {% include links.md %}
 
-### Managing Academic Software Development
+### Building Programs with Python
 
-#### Project Managment Setup 
+#### Python Setup 
+
+IDEs: PyCharm, Spyder, VS Code
+
+We use Python 3*. The “Anaconda3” package provides everything Python-related you will need for the workshop. To install [Anaconda](https://www.anaconda.com/products/individual), follow the instructions below.
+
+Some old research projects may be in Python 2 but Python 2 has been retired and new projects should be in Python 3.
+
+##### Windows
+Download the latest Anaconda Windows installer. Double-click the installer and follow the instructions. When asked “Add Anaconda to my PATH environment variable”, answer “yes”. After it’s finished, close and reopen any open terminals to reload the updated PATH and allow the installed Python to be found.
+
+##### Mac OS X
+Download the latest Anaconda Mac OS X installer. Double-click the .pkg file and follow the instructions.
+
+##### Linux
+Download the latest Anaconda Linux Installer. Install via the terminal like this,
+
+~~~
+$ bash Anaconda3-2021.11-Linux-x86_64.sh
+~~~
+{: .language-bash}
+
+Answer ‘yes’ to allow the installer to initialize Anaconda3 in your .bashrc.
+
+### Data Analysis and Visualization in R
+
+#### Data Analysis and Visualization in R
+R is a programming language and software environment for statistical computing and graphics. The RStudio Integrated Development Environment (IDE) is a set of tools designed to help you be more productive with R.
+
+We need to install R and RStudio: 
+The latest links can be found on the [RStudio downloads page](https://www.rstudio.com/products/rstudio/download/#download)
+
+##### R
+
+R can be found at [https://cran.rstudio.com/](https://cran.rstudio.com/), from here pick your OS and download the latest release, see below for direct links to your OS.
+
+##### Windows
+- [https://cran.rstudio.com/bin/windows/base/](https://cran.rstudio.com/bin/windows/base/)
+
+##### Mac OS
+- If prompted, choose to allow downloads from cran.rstudio.com.
+
+- [https://cran.rstudio.com/bin/macosx/](https://cran.rstudio.com/bin/macosx/)
+  - For intel based macs choose R-4.*.*.pkg
+  - For ARM based macs (M1 etc.) choose R-4.*.*-arm64.pkg
+
+##### Linux
+- R is included on many linux distros check to see if it is already present. Else use your package manager (snap, apt, yum), or look [here](https://cran.rstudio.com/bin/linux/)
 
 
+##### RStudio
 
-Before we get started, there are a few requirements to meet. You will need:
+Your OS should be detected and a link provided under step 2 on this page [RStudio downloads page](https://www.rstudio.com/products/rstudio/download/#download).
+Else select your OS from the list under All Installers.
 
-* [A GitHub account](https://github.com), with ssh key access.
-* A GitHub repository titled `climate-analysis`
-* A code editor (we recommend [Visual Studio Code](https://code.visualstudio.com/))
+##### Windows
 
-If you do not have a `climate-analysis` repository, you can create an empty one now. No specific contents are required for this lesson.
+Download and run the .exe file and follow instructions given by your OS.
+
+##### Mac OS
+
+Download the .dmg file.
+- If prompted, choose to allow downloads from rstudio.com.
+- Open the downloaded dmg archive from the Downloads folder.
+- Drag the RStudio icon to the Applications folder to install.
+
+##### Linux
+Download the appropriate install file (.rpm or .deb) for your distro.
